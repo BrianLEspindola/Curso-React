@@ -5,7 +5,7 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <header>
-        <h1>Honey Moon</h1>
+        <img src={"./public/honey_mon.png"} alt="Logo Honey Moon" />
 
         <nav>
             <ul>

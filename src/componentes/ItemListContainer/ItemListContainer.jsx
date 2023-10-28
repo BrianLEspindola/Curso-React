@@ -7,7 +7,7 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     getProductos()
-      .them((respuesta) => setProductos(respuesta))
+      .then((respuesta) => setProductos(respuesta))
       .catch((error) => console.log(error));
   }, []);
   return (
