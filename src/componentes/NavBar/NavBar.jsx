@@ -11,7 +11,7 @@ const NavBar = () => {
             <ul>
                 <li>Collares</li>
                 <li>Aritos</li>
-                <li>Anillos</li>
+                <li>Pulseras</li>
             </ul>
         </nav>
 

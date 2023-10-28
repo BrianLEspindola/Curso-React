@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react'
+
 import NavBar from './componentes/NavBar/NavBar'
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainer'
+import ItemCount from './componentes/ItemCount/ItemCount'
+
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,11 @@ function App() {
   return (
     <>
      <NavBar/>
-     <ItemListContainer greeting = "Bienvenidos a Honey Moon" />
+     <ItemCount stock={5}/> 
+     <ItemListContainer/>
+     
+     
+
     </>
   )
 }
